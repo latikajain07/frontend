@@ -1,0 +1,106 @@
+<app-top-header></app-top-header>
+<header>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" routerLinkActive="">
+                        <img height="300" width="200" src="assets/images/Greatwits_logo.jpg" class="attachment-full img-responsive" alt="">
+                        <!-- <img src="assets/images/Greatwits_logo" alt="">
+                        <h1>Greatwits</h1><span>Services Pvt Ltd</span> -->
+                    </a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse navbar-right">
+                        <ul class="nav navbar-nav" id="nav-bar">
+                            <li role="presentation" 
+                            routerLinkActive="active" 
+                            [routerLinkActiveOptions]="{exact:true}"><a routerLink="/">Home</a></li>
+                            
+                                <li role="presentation" routerLinkActive="active"><a routerLink="/services">Services</a>
+                                <ul class="menu-dropdown">
+                                   <span style = "display:flex">
+                                     <span class="span01">
+                                    <li class = ""><a routerLink="/web-app-development"><i class="fa fa-angle-right" aria-hidden="true"></i>Web App Development</a></li>
+                                    <li><a routerLink="/mobile-app-development"><i class="fa fa-angle-right" aria-hidden="true"></i>Mobile App Development</a></li>
+                                    <li><a routerLink="/software-product-development"><i class="fa fa-angle-right" aria-hidden="true"></i>Software Product Development</a></li>
+                                   </span>
+                                   <span class="span02">
+                                    <li class = ""><a routerLink="/cross-platform-development"><i class="fa fa-angle-right" aria-hidden="true"></i>Cross-Platform Development</a></li>
+                                    <li><a routerLink="/devops-development"><i class="fa fa-angle-right" aria-hidden="true"></i>DevOps Engineering</a></li>
+                                    <li><a routerLink="/it-strategy-consulting-firms"><i class="fa fa-angle-right" aria-hidden="true"></i>IT Strategy & Consulting</a></li>
+                                </span>
+                                </span>
+                                </ul>
+                            </li>
+                            
+                            <li><a routerLink="">Hire developers</a>
+                                <ul class="menu-dropdown">
+                                    <span style = "display:flex">
+                                     <span class="span01">
+                                     <li id="dropdown-list-heading">Mobility</li>
+                                     <li class = ""><a routerLink="/hire-ios-developers"><i class="fa fa-angle-right" aria-hidden="true"></i>iOS</a></li>
+                                     <li><a routerLink="/hire-android-developers"><i class="fa fa-angle-right" aria-hidden="true"></i>Android</a></li>
+                                     <li><a routerLink="/hire-react-native-developers"><i class="fa fa-angle-right" aria-hidden="true"></i>React Native</a></li>
+                                     <li><a routerLink="/hire-ionic-developers"><i class="fa fa-angle-right" aria-hidden="true"></i>Ionic</a></li>
+                                    </span>
+                                    
+                                    <span class="span02">
+                                     <li id="dropdown-list-heading">Web UI</li>
+                                     <li><a routerLink="/hire-angularjs-developers"><i class="fa fa-angle-right" aria-hidden="true"></i>Angular</a></li>
+                                    <li class = ""><a routerLink="/hire-reactjs-developers"><i class="fa fa-angle-right" aria-hidden="true"></i>ReactJS</a></li>
+                                    </span>
+                                    <span class="span02">
+                                        <li id="dropdown-list-heading">Full Stack</li>
+                                        <li><a routerLink="/hire-java-angularjs-developers"><i class="fa fa-angle-right" aria-hidden="true"></i>Java-SpringBoot-Angular</a></li>
+                                        <li><a routerLink="/hire-mern-stack-developers"><i class="fa fa-angle-right" aria-hidden="true"></i>MERN Stack</a></li>
+                                        <li><a routerLink="/hire-mean-stack-developers"><i class="fa fa-angle-right" aria-hidden="true"></i>MEAN Stack</a></li>
+                                    </span>
+                                    
+                                    <!--
+                                    <span class="span03">
+                                            <li id="dropdown-list-subHeading"></li>
+                                            <li class = ""><a href="/hire-nodejs-developers"><i class="fa fa-angle-right" aria-hidden="true"></i>NodeJS</a></li>
+                                            <li><a routerLink="/hire-vuejs-developers"><i class="fa fa-angle-right" aria-hidden="true"></i>VueJS</a></li>
+                                            <li><a routerLink="/hire-front-end-developers"><i class="fa fa-angle-right" aria-hidden="true"></i>Front-End</a></li>
+                                            <li><a routerLink="/hire-devops-developers"><i class="fa fa-angle-right" aria-hidden="true"></i>DevOps</a></li>
+                                           </span>
+                                           -->
+                                 </span>
+                                 </ul>
+                            </li>
+                            <li><a routerLink="">Industries</a>
+                                <ul class="menu-dropdown">
+                                        <span style = "display:flex">
+                                                <span class="span01">
+                                                <li><a routerLink="/banking-financial-services"><i class="fa fa-angle-right" aria-hidden="true"></i>Banking & Finance</a></li>
+                                                <li><a routerLink="/automotive-companies-software-development"><i class="fa fa-angle-right" aria-hidden="true"></i>Automotive</a></li>
+                                                <li><a routerLink="/logistics-transportation-software-development"><i class="fa fa-angle-right" aria-hidden="true"></i>Logistics & Transportaion</a></li>
+                                               </span>
+                                               <span class="span02">
+                                                <li><a routerLink="/retail-ecommerce-software-development"><i class="fa fa-angle-right" aria-hidden="true"></i>Retail & eCommerce</a></li>
+                                                <li><a routerLink="/education-elearning-software-development"><i class="fa fa-angle-right" aria-hidden="true"></i>Education & E-Learning</a></li>
+                                                <li><a routerLink="/media-software-development"><i class="fa fa-angle-right" aria-hidden="true"></i>Media & Entertainment</a></li>
+                                               </span>
+                                            </span>
+                                 </ul></li>
+                                 <li ><a routerLink="/Intership-Training">Intership/Training</a></li>
+                               
+                            <li ><a routerLink="/about">About</a></li>
+                            <li><a routerLink="/portfolio">Portfolio</a></li>
+                            <li><a routerLink="/contact">Contact</a></li>
+                            <li><a routerLink="/enquiry-form">Enquiry</a></li>
+                        </ul>
+                    </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </nav>
+</header>
+<!--/.nav-ends -->
